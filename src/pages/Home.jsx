@@ -16,7 +16,11 @@ const Home = () => {
   }, []);
   return (
     <div>
-     
+      <div className="row">
+        <button>word explorer</button>
+        <button>story adventure</button>
+        <button>brain quest</button>
+      </div>
       <div className="container">
         {data.map((data) => (
           <Cards key={data._id} data={data} />

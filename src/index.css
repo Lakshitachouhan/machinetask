@@ -7,11 +7,30 @@
 
 .container {
   max-width: 1280px;
-  padding-top: 80px;
+  padding-top: 30px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+
+.row {
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.row button {
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  font-size: 18px;
+  border-radius: 8px;
+  text-transform: capitalize;
 }
 
 .card {

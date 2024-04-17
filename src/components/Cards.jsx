@@ -11,7 +11,7 @@ const Cards = ({ data }) => {
         />
         <p>{data.Title}</p>
         <button>
-          <Link className="link">{data.Status}</Link>
+          <Link className="link">{!data.Status ? "empty" : data.Status}</Link>
         </button>
       </Link>
     </>
