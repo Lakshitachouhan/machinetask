@@ -20,12 +20,12 @@
   justify-content: center;
   gap: 30px;
   margin: auto;
-  padding-top: 50px;
+  padding-block: 50px;
 }
 
 .row button {
   padding: 10px 20px;
-  border: 0;
+  /* border: 0; */
   cursor: pointer;
   outline: 0;
   font-size: 18px;

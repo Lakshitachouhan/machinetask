@@ -20,6 +20,11 @@ const SinglePage = () => {
   return (
     <>
       <div className="single">
+        <div className="row">
+          <button>word explorer</button>
+          <button>story adventure</button>
+          <button>brain quest</button>
+        </div>
         <div className="singlepage">
           <img
             src={"https://ik.imagekit.io/dev24/$%7Bdata?.Image%7D"}
